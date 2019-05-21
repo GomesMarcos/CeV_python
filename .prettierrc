@@ -1,0 +1,6 @@
+{
+  "trailingComma": "py",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true
+}

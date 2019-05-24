@@ -1,7 +1,6 @@
 # Leia o nome completo de uma pessoa e identifique se ela possui "Silva" no nome
-nome = input('Informe seu nome completo: ')
-nome = nome.split()
-if 'Silva' in nome:
-    print('Seu nome possui \'Silva\'')
+nome = str(input('Informe seu nome completo: ')).strip()
+if 'SILVA' in nome.upper():
+    print('Seu nome possui \'Silva\'!')
 else:
-    print('Seu nome não possui \'Silva\'')
+    print('Seu nome não possui \'Silva\'!')

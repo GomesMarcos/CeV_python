@@ -4,11 +4,8 @@
 # printar quantas letras ao todo (sem considerar os espaços)
 # printar quantas letras tem o primeiro nome
 
-nome = input('Informe seu nome completo: ')
+nome = str(input('Informe seu nome completo: ')).strip()
 print('Nome em maiúsculo: {}'.format(nome.upper()))
 print('Nome em minúsculo: {}'.format(nome.lower()))
-nomeSplit = nome.split()
-nomeSplit = ''.join(nomeSplit)
-print('Quantidade de letras: {}'.format(len(nome)))
-print('Quantidade de letras sem contar espaços: {}'.format(len(nomeSplit)))
+print('Quantidade de letras: {}'.format(len(nome)-nome.count(' ')))
 print('Quantidade de letras no primeiro nome: {}'.format(len(nome.split()[0])))

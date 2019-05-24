@@ -6,10 +6,12 @@ while True:
         input('Selecione um número entre 0 e 5. Para finalzar digite \'000\': '))
 
     if num == 000:
-        print('Finalizando programa.')
+        print('-=-' * 5 + 'Finalizando programa' + '-=-' * 5)
         break
     elif num == r:
         print('Acetô!! Miserávi!! {}'.format(r))
+        print('-=-' * 5 + 'Finalizando programa' + '-=-' * 5)
         break
+
     else:
         print('Errrrrroooou!')
